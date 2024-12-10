@@ -6,6 +6,23 @@
 
 [Learn more about this workspace setup and its capabilities](https://nx.dev/nx-api/node?utm_source=nx_project&amp;utm_medium=readme&amp;utm_campaign=nx_projects) or run `npx nx graph` to visually explore what was created. Now, let's get you up to speed!
 
+## Getting Started
+
+```sh
+npx nx serve api-gateway
+```
+```sh
+npx nx serve first-ms
+```
+```sh
+npx nx serve second-ms
+```
+
+http://127.0.0.1:3000/first-ms
+http://127.0.0.1:3000/second-ms
+http://localhost:3001/api
+http://localhost:3002/api
+
 ## Run tasks
 
 To run the dev server for your app, use:
